@@ -14,7 +14,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 40px;
     color: inherit;   /*AL asignarle inherit le indico que el color de fuente lo herede de su padre "element"*/
 }
