@@ -10,7 +10,7 @@
 .elemento {
     width: 50px;
     transition: 1s linear;
-    color:green
+    color:green 
 }
 
 a {
