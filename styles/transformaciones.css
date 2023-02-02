@@ -1,0 +1,59 @@
+.transform {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    position: relative;
+    top: 200px;
+    animation: test 5s ease 2 alternate;
+}
+
+.elemento {
+    width: 50px;
+    transition: 1s linear;
+    color:green
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    color: inherit;   /*AL asignarle inherit le indico que el color de fuente lo herede de su padre "element"*/
+}
+
+.elemento:hover a span {
+    display: none; /* Oculto el spam con el texto original */
+}
+
+.elemento:hover {
+    color: red; /* Cambio color de fuente del padre y el hijo al tener inherit hereda el color del padre */
+    transform: translateX(100px) rotateY(360deg);    
+}
+
+.elemento:hover a:after {
+    content: "Después"; /* Luego de Hacer hover cambio el contenido de a y le coloco otro contenido */
+}
+
+.transform2 {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    position: relative;
+    top: 10px;
+}
+
+.transform2:hover {
+    transform: translateX(30px);
+}
+
+@keyframes test {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(300px) translateY(-200px);
+    }
+
+    100% {
+        transform: translateX(720px) translateY(200px) perspective(150px) rotateX(360deg);
+    }
+}

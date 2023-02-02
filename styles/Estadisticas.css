@@ -1,0 +1,89 @@
+h1{
+    color: red;
+    font-size: 40px;
+}
+
+h1, a {
+    font-family: monospace;
+}
+
+li a{
+    color: green;
+}
+
+.link_external{
+    text-decoration-line: none;
+    color: violet;
+    font-style: oblique;
+}
+
+#navbar{
+    width: 100vw;
+    height: auto;
+    background-color: orange;
+}
+
+li .combinacion_de_selectores{
+    background-color: cyan;
+}
+
+a[class~=combinacion_de_selectores] {
+    color:orange
+}
+
+.in{
+    font-size: 1in;
+}
+.cm{
+    font-size: 1cm;
+}
+
+.mm{
+    font-size: 10mm;
+}
+.pt{
+    font-size: 10pt;
+}
+.pc{
+    font-size: 1pc;
+}
+.px{
+    font-size: 10px;
+}
+
+:root {
+    font-size: 22px;    /* Tamaño base */
+  }
+  
+  .DosRem {
+    font-size: 2rem;    /* El doble del tamaño base: 44px */
+  }
+  
+  .UnRem {
+    font-size: 1rem;    /* El mismo tamaño base: 22px */
+  }
+
+  .padre_container{
+    width: 100vw;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+  }
+  .hijoUno_Item{
+    width: 50%;
+    height: 90%;
+    background-color: blue;
+  }
+  .hijoDos_Item{
+    width: 30%;
+    height: 70%;
+    background-color: aqua;
+  }
+  .hijoTres_Item{
+    width: 30%;
+    height: 50%;
+    background-color: olivedrab;
+  }
+
+
+

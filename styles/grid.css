@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.grid {
+    height: 400px;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    
+    
+
+}
+
+.grid_item1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FBatman.webp?alt=media&token=d6085771-eb1a-4db0-8681-c934d48e38cf);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+
+}
+.grid_item1>div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;  
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7), rgba(122, 10, 10, 0.8), rgb(255, 0, 0));
+    display: grid;
+    place-items: center center;
+}
+p{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bolder;
+    background: linear-gradient( rgb(255, 0, 0), rgb(0, 0, 0) );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+       
+        
+}
+.text {
+    /* transform: translate(1px, 1px); */
+    background: rgba(253, 252, 252, 0.829);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+  }
+
+
+
+.grid_item2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FDon%20Quijote.webp?alt=media&token=2b6acb11-e107-41b1-bc7d-da75dde9ffcd);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+}
+
+.grid_item3 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FDragon%20Ball.webp?alt=media&token=5957a63a-c82b-457b-af3a-450295c86d7f);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+}
+
+.grid_item4 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FEl%20zorro.webp?alt=media&token=a3d849bc-dff4-4532-b9b4-b9d7f67d4df3);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+}
+
+.grid_item5 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FFish.webp?alt=media&token=4ca00f71-dd15-41b7-b6c8-cf8b210cb1ac);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+}
+
+.grid_item6 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/amdev-2e652.appspot.com/o/ArtGalery%2FLa%20Farola.webp?alt=media&token=b2f8e163-fddd-422e-be10-9cc386ead831);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid black;
+}
+.otroElemento {
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
