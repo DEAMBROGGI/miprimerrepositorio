@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Posicionamiento.css">
+    <title>Posicionamiento</title>
+</head>
+
+<body>
+    <div class="fijo"></div>
+    <div class="relativo">
+        <div class="relativo_item"></div>
+        <div class="relativo_itemdos"></div>
+        <div class="relativo_itemtres"></div>
+    </div>
+
+    <div class="absoluto">
+
+        <div class="pegajoso peguno"><button data-target="section-1" onclick="scrolltoId(event)">TITULO Dos </button>
+        </div>
+        <div id="section-1">
+            <p class="container_pegajoso">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident adipisci
+                suscipit nihil animi cum, nisi autem voluptas sint placeat? Architecto odit sequi deleniti autem
+                laboriosam
+                explicabo libero sunt aspernatur quibusdam.</p>
+        </div>
+        <div class="pegajoso  pegdos"><button data-target="section-2" id="dos" onclick="scrolltoId(event)">TITULO
+                Dos</button></div>
+        <div id="section-2">
+            <p class="container_pegajoso">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident adipisci
+                suscipit nihil animi cum, nisi autem voluptas sint placeat? Architecto odit sequi deleniti autem
+                laboriosam
+                explicabo libero sunt aspernatur quibusdam.</p>
+        </div>
+
+        <div class="pegajoso  pegtres"><button data-target="section-3" onclick="scrolltoId(event)">TITULO Tres </button>
+        </div>
+        <div id="section-3" class="container_pegajoso">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident adipisci suscipit nihil animi cum,
+                nisi autem voluptas sint placeat? Architecto odit sequi deleniti autem laboriosam explicabo libero sunt
+                aspernatur quibusdam.</p>
+            <img width="150px" src="../multimedia/Image/ArgCamp.png" alt="">
+        </div>
+
+        <div class="pegajoso  pegcuatro"><button data-target="section-4" onclick="scrolltoId(event)">TITULO Cuatro
+            </button> </div>
+        <p id="section-4" class="container_pegajoso">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+            adipisci
+            suscipit nihil animi cum, nisi autem voluptas sint placeat? Architecto odit sequi deleniti autem laboriosam
+            explicabo libero sunt aspernatur quibusdam.</p>
+    </div>
+    <script>
+        function scrolltoId(event) {
+            var element = event.target.dataset.target
+            var data = document.getElementById(element)
+            data.scrollIntoView({ behavior: "smooth", block: "center" })
+        }
+
+//         const scrollIntoViewWithOffset = (selector, offset) => {
+//   window.scrollTo({
+//     behavior: 'smooth',
+//     top:
+//       document.querySelector(selector).getBoundingClientRect().top -
+//       document.body.getBoundingClientRect().top -
+//       offset,
+//   })
+// }
+    </script>
+
+
+</body>
+
+</html>

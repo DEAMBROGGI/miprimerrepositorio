@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/general.css">
+    <title>Mi primer html</title>
+    <style>
+        img,
+        main > iframe,
+        video {
+            height: 250px;
+            border: 3px blue dotted;
+            border-radius: 15px;
+            box-shadow: 16px 16px 29px -4px rgba(0, 0, 0, 0.66);
+        }
+
+        h1+h2 {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 id="top">MI PAGINA</h1>
+            <ul>
+                <li>Inicio</li>
+                <li><a href="./pages/Producto.html">Producto</a></li>
+                <li><a href="./pages/Servicio.html">Servicio</a></li>
+                <li><a href="./pages/Contactos.html">Contactos</a></li>
+            </ul>
+            <div></div>
+        </nav>
+    </header>
+    <div class="maincontent">
+        <div>
+            <main>
+                <ul>
+                    <li><a id="navscroll" tabindex="2" href="#test">Navegacion a punto de la pagina item 1</a></li>
+                </ul>
+                <video src="./multimedia/video/sources-63a0858a67612.mp4" autoplay muted loop></video>
+                <img src="./multimedia/Image/ArgCamp.png" alt="Foto Argentina Campeon">
+                <img src="./multimedia/Image/ArgCampeon1.jpg" alt="Foto de jugadores argentinos levantando la copa">
+                <div>
+                </div>
+                <section>
+                    <h1 style="color: red;">Hello World</h1>
+                    <h2>Hello World</h2>
+                    <h3>Hello World</h3>
+                    <h4>Hello World</h4>
+                    <h5>Hello World</h5>
+                    <h2>Hello World</h6>
+                </section>
+                <section>
+                    <p>
+                        Este es un <strong><mark>parrafo</mark></strong> en etiqueta <mark><small>p</small></mark> <br>
+                        Esta es la <mark>segunda</mark> linea del parrafo
+                    </p>
+                </section>
+            </main>
+            <aside>
+                <section>
+                    <ol>
+                        <li id="test">Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </section>
+                <section>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+                <section>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </section>
+                <section>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+                <section>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </section>
+                <section>
+                    <ul>
+                        <li class="list">Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+                <section>
+                    <ol>
+                        <li class="list ol">Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </section>
+                <section>
+                    <ul>
+                        <li class="lista ul">Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+            </aside>
+            <iframe src="./multimedia/Files/wireframee.pdf" frameborder="0"></iframe>
+            <a href="./multimedia/Files/wireframee.pdf" target="_blank">Vista PDF</a>
+            <iframe src="https://www.lanacion.com.ar/" frameborder="1"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3259476512308!2d-58.45196358423823!3d-34.545301761917685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses-419!2sar!4v1672265661903!5m2!1ses-419!2sar"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="referrer-when-downgrade"></iframe>
+
+            <iframe src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/adrian-deambroggi/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a></li>
+            <li>
+                <a href="https://github.com/Cassfsd" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li><a href="https://www.facebook.com/priyankachopra/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <div class="container">
+        <div class="item_Uno"></div>
+        <div class="item_Dos"></div>
+        <div class="item_Tres"></div>
+    </div>
+
+    <div class="container_box">
+        <div class="item_box">
+            <p style="font-size: 100px;">Modelo de caja CSS</p>
+        </div>
+    </div>
+    <div class="container_display">
+        <div class="item_display">
+            <p style="font-size: 40px;">Display 1</p>
+        </div>
+        <div class="item_displaydos">
+            <p style="font-size: 40px;">Display 2</p>
+        </div>
+        <div class="item_display">
+            <p style="font-size: 40px;">Display 3</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

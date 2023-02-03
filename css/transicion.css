@@ -1,0 +1,62 @@
+h1 {
+    color: red;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    animation: change-h1 20s ease infinite alternate;
+}
+#bird{
+    width:360px;
+    height:900px;
+    background:url(../multimedia/Image/bird.png) no-repeat;
+    animation:bird 0.5s steps(3) infinite;
+    margin:auto;
+    position:relative;
+    bottom:34px;
+}
+
+/* h1:hover {
+    color: blue;
+    font-size: 40px;
+
+    transition: all 10s ease 0.5s;
+} */
+
+/* @keyframes change-h1 {
+    from{color:red;}
+    to {color:blue;
+        font-size: 40px;}
+} */
+
+@keyframes change-h1 {
+    0%, 100% {
+        color: red;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    25% {
+        color: blue;
+        font-size: 100px;
+        font-weight: bolder;
+    }
+
+    50% {
+        color: yellow;
+        font-size: 50px;
+        font-weight: lighter;
+    }
+
+    75% {
+        color: green;
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+   
+}
+
+@keyframes bird {
+    0% { background-position:0 }
+    100% { background-position:-1050px }
+  }

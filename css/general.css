@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh; 
+}
+.maincontent div{
+    padding: 3%;
+}
+.maincontent{  
+    min-height: 73vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    box-shadow: 5px 5px 10px -4px rgba(0,0,0,0.66);
+}
+nav h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+nav div{
+    width: 15%;
+}
+nav li {
+    list-style-type: none;
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px black solid;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 1%;
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav li :hover {
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px -4px rgba(0,0,0,0.66);
+}
+
+footer, nav{
+    background-color: burlywood;
+}
+
+
+
+footer{
+    font-size: 100px;
+    width: 100%; 
+    height: 12vh;   
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+footer li{ 
+    
+    font-size: 50%;   
+    list-style-type: none;
+    margin: 1% 2%;
+}
+
+footer a{
+    color: black;
+}
+
+
+#navscroll{
+    color: blueviolet;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+li[class]{
+    color: blueviolet;
+}
+
+li[class=list]{
+    font-size: larger;
+}
+
+li[class~=list]{
+    text-decoration: overline;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom:1% ;
+}
+.item_Uno{
+    width: 31%;
+    min-width: 250px;
+    height: 300px;
+    background-color:#13293D;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.item_Dos{
+    width: 31%;
+    min-width: 250px;
+    height: 300px;
+    background-color: hsla(305, 100%, 50%, 0.786);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.item_Tres{
+    width: 31%;
+    min-width: 250px;
+    height: 300px;
+    background-color: rgb(105, 205, 17);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+  color: white !important;
+  text-align: center;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+  }
+
+  .container_box{
+    max-width: 40vw;
+    min-width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 30px;
+    border: 3px solid black;
+    overflow: hidden;
+  }
+.item_box{
+    max-width: 600px;
+    min-width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 30px;
+    background-image: url(../multimedia/Image/ArgCamp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+    overflow: auto;
+}
+.container_display{
+    width: 100vw;
+    height: auto;
+    background-color: lightblue;
+    display: -webkit-inline-box;
+    
+    
+}
+.item_display{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: pink;
+    border: 3px solid black;
+    display: block;
+   
+}
+.item_displaydos{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: pink;
+    border: 3px solid black;
+    display: none;
+  
+}
+
+
