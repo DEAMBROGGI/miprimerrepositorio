@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es la app que referencia a la serie de Rick and Morty">
+    <meta name="keywords" content="Rick y Morty, Morty, App de series">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Rick and Morti - Home</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navBar"></nav>
+    </header>
+    <!-- <input type="text" id="inputSearch"> -->
+    <main id="root"></main>
+    <!-- <form action="">
+        <div>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="text" name="lastname" id="lastname" placeholder="Apellido">
+        </div>
+        <div>
+            <select name="Countrie" id="Pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="HTML" id="HTML" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="CSS" id="CSS" value="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="JS" id="JS" value="JS">
+            <label for="JS">JS</label>
+        </div>
+        <input type="submit" value="Enviar">
+    </form> -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDOAEI3jGiCQT42XU4H_vThYGk5CDc0pH0",
+          authDomain: "codo-a-codo-mern-3b7f3.firebaseapp.com",
+          projectId: "codo-a-codo-mern-3b7f3",
+          storageBucket: "codo-a-codo-mern-3b7f3.appspot.com",
+          messagingSenderId: "300279865474",
+          appId: "1:300279865474:web:1ccba81b883c8be394949b",
+          measurementId: "G-R3Y5KLZ4PW"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <script src="./js/characters.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/navbar.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+    <!-- <script src="./challengeJSRESULTS/challengeJS1.js"></script> -->
+</body>
