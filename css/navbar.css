@@ -103,6 +103,10 @@ ul >li{
     align-items: center;
     
 }
+.main{
+    background-color: black;
+    opacity: 0.5;
+}
 
 ul > li:hover{
     cursor: pointer;
